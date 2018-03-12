@@ -7,7 +7,7 @@
 clear; 
 close all;
 
-ticker = 'MRAM' % AMZN MRAM
+ticker = 'AMZN' % AMZN MRAM
 data = fetchFromGoogle(ticker, '01-Jan-2017', date, 'd');
 data = flip(data); % to sort it ascending in date
 
